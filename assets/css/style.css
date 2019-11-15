@@ -1,7 +1,3 @@
-/*
-  questions to be resolved: 
-  - do i need to change text overlay on portfolio images using z index, or is it ok the way i have it
-    */
 
 body {
   background-image: url("../../assets/images/circle blues/circle-blues.png");
@@ -100,6 +96,7 @@ input[type=submit], select {
 }
 
 #messageform {
+  /* this provides a large looking box, although the form still only writes in one line */
   padding-bottom: 300px;
 }
 
